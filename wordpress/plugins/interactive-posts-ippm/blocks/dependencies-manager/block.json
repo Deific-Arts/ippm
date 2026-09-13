@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "ippm/dependencies-manager",
+	"version": "1.0.0",
+	"title": "IPPM: Dependencies",
+	"category": "design",
+	"icon": "format-image",
+	"description": "Add JavaScript dependencies to a post.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "ippm",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "ippm/assets-manager",
+	"version": "1.0.0",
+	"title": "IPPM: Assets",
+	"category": "design",
+	"icon": "format-image",
+	"description": "Add CSS and or JavaScript to a post.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "ippm",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

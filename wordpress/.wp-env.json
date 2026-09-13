@@ -1,0 +1,13 @@
+{
+  "core": null,
+  "themes": ["./themes/ippm/"],
+  "plugins": ["./plugins/interactive-posts-ippm/"],
+  "port": 3338,
+  "testsPort": 3339,
+  "config": {
+    "FS_METHOD": "direct"
+  },
+  "mappings": {
+    ".htaccess": "./.htaccess"
+  }
+}
